@@ -1,0 +1,66 @@
+:import {
+  -st-from: "../Foundation/stylable/colors.st.css";
+  -st-named: G30,R30;
+}
+
+.root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #d94433;
+}
+
+.root .header {
+  width: 100%;
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40%;
+  margin-left: 7%;
+  pointer-events: none;
+}
+
+.root .section {
+  width: 100%;
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.root .section .heroContainer {
+  height: 220px;
+  margin-top: 10%;
+}
+.root .section .heroContainer .hero {
+  height: 100%;
+}
+
+.root .section .heroText {
+  width: 47%;
+  color: #ffffff;
+  font-size: 22.77pt;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.root .footer {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.root .footer .footertext {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+

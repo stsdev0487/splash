@@ -374,6 +374,9 @@
       "docs"
     ]
   },
+  "Splash": {
+    "path": "src/Splash"
+  },
   "StatisticsWidget": {
     "path": "src/StatisticsWidget"
   },

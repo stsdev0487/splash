@@ -417,6 +417,10 @@ export * from './clients';
 export { default as ComposerSidebar } from './ComposerSidebar';
 
 export { default as SortableGrid } from './SortableGrid';
+
+export { default as Splash } from './Splash';
+export * from './Splash';
+
 export * from './SortableGrid';
 
 export * from './ComposerSidebar'
